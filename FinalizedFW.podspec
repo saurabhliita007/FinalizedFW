@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name              = 'SBDemoPod'
-s.version           = '5.0.1'
+s.version           = '5.0.12'
 s.summary           = 'Demonstration of integration of pod'
 s.homepage          = 'https://github.com/saurabhliita007/SBDemoPod.git'
 s.license           = {
