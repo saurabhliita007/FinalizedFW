@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name              = 'FinalizedFW'
-s.version           = '0.0.1'
+s.version           = '4.1.0'
 s.summary           = 'Demonstration of integration of pod'
 s.homepage          = 'https://github.com/saurabhliita007/SBDemoPod.git'
 s.license           = {
