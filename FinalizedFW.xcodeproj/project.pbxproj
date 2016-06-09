@@ -10,6 +10,8 @@
 		A81E290B1D0839C600997EF0 /* FinalizedFW.h in Headers */ = {isa = PBXBuildFile; fileRef = A81E290A1D0839C600997EF0 /* FinalizedFW.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A81E29121D0839C600997EF0 /* FinalizedFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A81E29071D0839C600997EF0 /* FinalizedFW.framework */; };
 		A81E29171D0839C600997EF0 /* FinalizedFWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A81E29161D0839C600997EF0 /* FinalizedFWTests.m */; };
+		A81E29231D0839D800997EF0 /* Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = A81E29211D0839D800997EF0 /* Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A81E29241D0839D800997EF0 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = A81E29221D0839D800997EF0 /* Utility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		A81E29111D0839C600997EF0 /* FinalizedFWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalizedFWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A81E29161D0839C600997EF0 /* FinalizedFWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinalizedFWTests.m; sourceTree = "<group>"; };
 		A81E29181D0839C600997EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A81E29211D0839D800997EF0 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		A81E29221D0839D800997EF0 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				A81E290A1D0839C600997EF0 /* FinalizedFW.h */,
 				A81E290C1D0839C600997EF0 /* Info.plist */,
+				A81E29211D0839D800997EF0 /* Utility.h */,
+				A81E29221D0839D800997EF0 /* Utility.m */,
 			);
 			path = FinalizedFW;
 			sourceTree = "<group>";
@@ -94,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A81E290B1D0839C600997EF0 /* FinalizedFW.h in Headers */,
+				A81E29231D0839D800997EF0 /* Utility.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A81E29241D0839D800997EF0 /* Utility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +263,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -297,6 +305,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
