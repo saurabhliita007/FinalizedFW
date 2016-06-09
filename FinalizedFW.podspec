@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name              = 'SBDemoPod'
-s.version           = '5.0.0'
+s.version           = '5.0.1'
 s.summary           = 'Demonstration of integration of pod'
 s.homepage          = 'https://github.com/saurabhliita007/SBDemoPod.git'
 s.license           = {
@@ -13,7 +13,7 @@ s.author            = {
 }
 s.source            = {
 :git => 'https://github.com/saurabhliita007/SBDemoPod.git',
-:branch => 'saddam'
+:branch => 'master'
 :tag => s.version.to_s
 }
 s.source_files      = 'FinalizedFW/*.{m,h}'
