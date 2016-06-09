@@ -13,7 +13,7 @@ s.author            = {
 }
 s.source            = {
 :git => 'https://github.com/saurabhliita007/SBDemoPod.git',
-:branch => 'master'
+:branch => 'master',
 :tag => s.version.to_s
 }
 s.source_files      = 'FinalizedFW/*.{m,h}'
